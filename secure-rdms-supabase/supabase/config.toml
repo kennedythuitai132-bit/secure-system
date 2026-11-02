@@ -1,0 +1,13 @@
+project_id = "secure-rdms"
+
+[functions.file-upload]
+verify_jwt = true
+[functions.file-download]
+verify_jwt = true
+[functions.admin-users]
+verify_jwt = true
+[functions.audit-event]
+verify_jwt = true
+
+[functions.auth-failure]
+verify_jwt = false
